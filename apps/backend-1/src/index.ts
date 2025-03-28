@@ -1,10 +1,9 @@
-// import express from "express";
-
-// const app=express()
+import express from "express"
 
 
-// app.get("/",(req,res)=>{
-//     res.send("Hello World")
-// })
+const app=express()
 
-// app.listen(3000)
+app.get("./",(req,res)=>{
+    res.send("Hello World!")
+})
+app.listen(3001)
